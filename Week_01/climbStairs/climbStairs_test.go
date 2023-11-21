@@ -2,8 +2,8 @@ package climbStairs
 
 import "testing"
 
-func TestClimbStairs(t *testing.T)  {
+func TestClimbStairs(t *testing.T) {
 	n := 4
-	info := climbStairs(n)
+	info := ClimbStairs(n)
 	t.Log(info)
 }
